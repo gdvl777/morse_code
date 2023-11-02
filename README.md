@@ -1,129 +1,117 @@
-
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+<div align="center">
+    <h1><b>Morse Decoder</b></h1>
+</div>
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
+---
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+# 📗 Table of Contents <a name="table-of-contents"></a>
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Decoding\_Morse\_Code ](#-decoding_morse_code-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-  - [Setup](#setup)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📗 Table of Contents](#table-of-contents)
+- [📖 Morse Decoder App](#about-project)
+- [Learning objectives](#learning-objectives)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+  - [💻 Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [👥 Authors](#authors)
+  - [🔭 Future Features](#future-features)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show your support](#️support)
+  - [🙏 Acknowledgments](#acknowledgements)
+  - [📝 License](#license)
+
+---
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Decoding_Morse_Code <a name="about-project"></a>
+# 📖 Morse Decoder App <a name="about-project"></a>
 
-The purpose of this app is to decode a message encrypted in morse code using Ruby as the programming language. It adheres to best practices and verifies results using Rubocop.
+- This is a Ruby program that decodes morse code.
 
+---
+
+#### Learning objectives
+
+- Run a program using the command line.
+- Use Ruby syntax for basic programming operations.
+- Use Ruby to solve basic coding challenges.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-The project is built using SQL for database management. Getting Started Follow these steps to understand and work on the project:
-
-
 ### Tech Stack <a name="tech-stack"></a>
 
-The project is built using the following technologies:
-
-
-<details>
-<summary>Ruby</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+    <li>
+      <a href="https://www.ruby-lang.org/en/">
+         Ruby
+      </a>
+    </li>
   </ul>
-</details>
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-
-- **Hash**
-- **Methods**
-- **Rubocop install**
-- **Gems install**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Unfortunately, there is no live demo available for this project at the moment.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-## Setup
-
 To get a local copy up and running, follow these steps.
 
-1. Clone this repository to your local machine:
+### Prerequisites
 
+In order to run this project you need:
+
+- Have Ruby installed. If you need to install Ruby, follow the instructions on the [official page](https://www.ruby-lang.org/en/documentation/installation/).
+
+### Setup
+
+Clone this repository to your desired folder:
+
+Example commands:
+
+```bash
+  cd my-folder
+  git clone git@github.com:gdvl777/morse_code.git
 ```
-git clone https://github.com/gdvl777/morse_code.git
 
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Daniel Villalba Lynch**
+👤 **Arthur Iturres**
 
--   GitHub: [@githubhandle](https://github.com/gdvl777)
--   x: [X](https://www.x.com/gdvl777_)
+- GitHub: [@ITurres](https://github.com/ITurres)
+- LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/in/arturoemanuelguerraiturres/)
+- Angellist / Wellfound: [Arturo (Arthur) Emanuel Guerra Iturres](https://wellfound.com/u/arturo-arthur-emanuel-guerra-iturres)
+- Youtube: [Arturo Emanuel Guerra Iturres - Youtube Channel](https://www.youtube.com/channel/UC6GFUFHOtBS9mOuI8EJ6q4g)
 
-👤 **Author2**
+👤 **Daniel Villalba L**
 
--   GitHub: [@githubhandle](https://github.com/CesarHerr)
--   LinkedIn: [LinkedIn](https://www.linkedin.com/in/author2/)
+- GitHub: [@githubhandle](https://github.com/gdvl777)
+- X: [X](https://www.x.com/gdvl777_)
+- Angellist / Wellfound: [Daniel Villalba Lynch](https://wellfound.com/u/daniel-villalba-2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **User Interface**
+- [ ] Add a feature to encode text to morse code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- CONTRIBUTING -->
 
@@ -135,32 +123,34 @@ Feel free to check the [issues page](https://github.com/gdvl777/morse_code/issue
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project or if it helped you, please give a ⭐️. I'd really appreciate it!
+Give a ⭐ if you liked this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and all my peers and colleagues at Microverse for giving me the opportunity to work on this project.
+I thank my coding partner and code reviewer for their help and support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md).
-
+This project is [MIT](./MIT) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---

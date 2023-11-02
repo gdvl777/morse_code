@@ -29,13 +29,21 @@ MORSE_TO_LETTER = {
 
 # decode_char
 
-# *decode_char will expect a block to be passed in (using --yield-- or --&block--)
-# * choose the one that makes the most sense for you!.
-# !delete the comments above when done :thumbs_up:.
-def decode_word(word)
-  word.split(/\s{1}/).map { |char| decode_char(char) { |letter| letter } }.join
+# Method to decode a Morse character
+def decode_char(morse_char)
+  MORSE_CODE[morse_char]
 end
 
-# decode
+# Method to decode a Morse word
+def decode_word(morse_word)
+  morse_word.split.map { |morse_char| decode_char(morse_char) }.join
+end
 
-p decode('      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+# Method to decode an entire Morse message
+def decode(morse_message)
+  morse_message.split('   ').map { |morse_word| decode_word(morse_word) }.join(' ')
+end
+
+message = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
+decoded_message = decode(message)
+puts "Decoded message: #{decoded_message}"
